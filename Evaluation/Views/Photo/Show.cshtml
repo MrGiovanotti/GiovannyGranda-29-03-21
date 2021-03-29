@@ -1,0 +1,13 @@
+﻿@model Evaluation.Models.Photo
+
+@{
+    ViewBag.Title = "Mostrar Foto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Title</h2>
+
+<div>
+    <img class="img-rounded" src=@Model.Url alt=@Model.Title width="200" height="200" />
+</div>
+
